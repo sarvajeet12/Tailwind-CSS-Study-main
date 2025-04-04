@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactivity</title>
+    <link href="./src/output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <button class="bg-blue-600 rounded-md text-white p-4 m-4">Login</button>
+
+    <!-- hover property -->
+    <button class="bg-blue-600 rounded-md text-white p-4 m-4 hover:bg-blue-950 hover:p-10">Login</button>
+
+    <!-- focus property -->
+    <button class="bg-blue-600 rounded-md text-white p-4 m-4 focus:bg-amber-600">Login</button>
+
+    <!-- active property -->
+    <button class="bg-blue-600 rounded-md text-white p-4 m-4 active:bg-amber-950">Login</button>
+
+    <!-- hover, focus and active property -->
+    <button class="bg-blue-600 rounded-md text-white p-4 m-4
+     hover:bg-amber-300 
+     focus:bg-amber-600 
+     active:bg-amber-950">
+        Login
+    </button>
+
+    <!-- Group -->
+    <!-- 1. -->
+    <div class="m-4">
+        <a href="#" class="group">
+            <h1 class="hover:text-amber-100 group-hover:bg-amber-600">Heading click</h1>
+            <p>Para Click</p>
+        </a>
+    </div>
+
+    <!-- 2. -->
+    <div class="m-4">
+        <a href="#" class="group">
+            <h1 class="group-hover:bg-amber-600">Heading click</h1>
+            <p class="group-hover:bg-amber-600">Para Click</p>
+        </a>
+    </div>
+
+    <!-- 3. -->
+    <div class="m-4">
+        <a href="#" class="group">
+            <h1 class="group-hover:text-amber-100 group-hover:bg-amber-600">Heading click</h1>
+            <p class="group-hover:bg-amber-600">Para Click</p>
+        </a>
+    </div>
+</body>
+
+</html>
