@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition And Transformation</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- simple -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer">Login 1</button>
+
+    <!-- hover -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:bg-blue-900">Login 2</button>
+
+    <!-- hover color change and transition -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:bg-blue-300
+    transition duration-1000">Login 3</button>
+
+    <!-- hover opacity change and transition -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:opacity-5
+        transition duration-1000">Login 4</button>
+
+    <!-- hover rotation change and transition -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:rotate-45
+    transition duration-1000">Login 5</button>
+
+    <!-- hover scale change and transition -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:scale-75
+    transition duration-1000">Login 6</button>
+
+    <!-- hover scale change in x or horizontal direction and transition -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:scale-x-75
+    transition duration-1000">Login 7</button>
+
+    <!-- hover scale change in y or vertical direction and transition -->
+    <button class="bg-blue-700 rounded p-4 text-white m-10 cursor-pointer hover:scale-y-75
+    transition duration-1000">Login 8</button>
+
+    <div>
+        <img src="./images/TheBoseBaby.jpeg" alt="" class=" size-50 transition-transform border m-10
+        hover:scale-150 hover:rotate-45 duration-1000">
+    </div>
+</body>
+
+</html>
