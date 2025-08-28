@@ -22,7 +22,7 @@ All dependencies are managed via `npm`:
 ```
 
 - **@tailwindcss/cli**: For compiling Tailwind CSS
-- **tailwindcss**: The core  Tailwind CSS framework
+- **tailwindcss**: The core Tailwind CSS framework
 
 ---
 
