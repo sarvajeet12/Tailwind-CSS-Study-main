@@ -26,7 +26,7 @@ All dependencies are managed via `npm`:
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Folder Structur
 
 ```
 Tailwind-CSS-Study-main-master/
