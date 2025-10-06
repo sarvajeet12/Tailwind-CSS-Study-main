@@ -8,7 +8,7 @@
 
 ---
 
-## 📦 Dependencies
+## 📦 Dependencie
 
 All dependencies are managed via `npm`:
 
