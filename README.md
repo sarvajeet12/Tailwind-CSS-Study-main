@@ -1,6 +1,6 @@
 ## 🚀 Tech Stack
 
-- **HTML5** – Markup for all demo page
+- **HTML5** – Markup for all demo pages
 - **Tailwind CSS v4** – Utility-first CSS framework
 - **PostCSS** – For processing Tailwind directives
 - **Node.js** – For running Tailwind CLI
