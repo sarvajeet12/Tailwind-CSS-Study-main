@@ -1,4 +1,4 @@
-## 🚀 Tech Stack
+## 🚀 Tech Stac
 
 - **HTML5** – Markup for all demo pages
 - **Tailwind CSS v4** – Utility-first CSS framework
