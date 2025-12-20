@@ -4,7 +4,7 @@
 - **Tailwind CSS v4** – Utility-first CSS framework
 - **PostCSS** – For processing Tailwind directives
 - **Node.js** – For running Tailwind CLI
-- **Custom CSS** – For extended styles and custom classes
+- **Custom CSS** – For extended styles and custom classe
 
 ---
 
